@@ -2,13 +2,16 @@
     "name": "hfdg",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -20,5 +23,23 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#8c8fae",
+        "#7ec4c1",
+        "#3e2137",
+        "#9a6348",
+        "#d79b7d",
+        "#f5edba",
+        "#c0c741",
+        "#647d34",
+        "#e4943a",
+        "#9d303b",
+        "#d26471",
+        "#34859d",
+        "#584563",
+        "#17434b",
+        "#1f0e1c"
+    ]
 }
